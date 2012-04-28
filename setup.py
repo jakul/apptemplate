@@ -1,20 +1,19 @@
 from setuptools import setup, find_packages
 import os
+from apptemplate import VERSION, AUTHOR, PROJECT_NAME, SHORT_DESCRIPTION, \
+    AUTHOR_EMAIL
 
 
 def fread(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-PROJECT_NAME = os.path.split(os.path.dirname(os.path.abspath(__file__)))[-1]
-VERSION = open('apptemplate/version.txt').read()
-
 setup(
     name=PROJECT_NAME,
     version=VERSION,
-    description='XXXXXXXXX',
+    description=SHORT_DESCRIPTION,
     long_description=fread("README.rst")+"\n\n"+fread('CHANGELOG.rst'),
-    author='Craig Blaszczyk',
-    author_email='masterjakul@gmail.com',
+    author=AUTHOR,
+    author_email=AUTHOR_EMAIL,
     url='https://github.com/jakul/apptemplate',
     download_url='https://github.com/jakul/apptemplate/downloads',
     packages=find_packages(),

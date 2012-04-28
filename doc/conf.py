@@ -12,15 +12,16 @@
 # serve to show the default.
 
 import sys, os
-from apptemplate import VERSION, VERSION_INFO
+from apptemplate import VERSION, VERSION_INFO, AUTHOR, PROJECT_NAME, \
+    SHORT_DESCRIPTION
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'sampleproj'))
 os.environ['DJANGO_SETTINGS_MODULE'] = 'sampleproj.settings'
 
 # General information about the project.
-project = u'apptemplate'
+project = PROJECT_NAME
 author = 'XXXX'
-copyright = u'2012, ' + author
-short_description = 'One line description of project.'
+copyright = u'2012, ' + AUTHOR
+short_description = SHORT_DESCRIPTION
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
