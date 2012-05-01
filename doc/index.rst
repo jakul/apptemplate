@@ -8,9 +8,11 @@ Welcome to apptemplate's documentation!
 
 Contents:
 
-.. toctree::
-   :maxdepth: 2
 
+.. toctree::
+    :maxdepth: 2
+
+    install
 
 
 Indices and tables
