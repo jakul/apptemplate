@@ -36,7 +36,7 @@ Dependencies not on PyPi
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Dependencies which are not available on PyPi should be listed both in *requirements.txt* 
 (see above) and in the *dependency_links* list of *setup.py*.  The url provided in the
-*dependency_links* must include the project name and version number::
+*dependency_links* **must include the project name and version number**::
 
     dependency_links = [
         'http://github.com/jakul/python-semver/tarball#egg=semver-0.0.1',
