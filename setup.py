@@ -20,9 +20,10 @@ setup(
     install_requires=open('requirements.txt').read(),
     dependency_links = [
         # This is for requirements not on PyPi
-        'http://github.com/jakul/python-semver/tarball/master#egg=python-semver'
+        'http://github.com/jakul/python-semver/tarball/857113414bce76754f80422bd77f8585e75e873c#egg=semver-0.0.1',
     ],
     include_package_data=True,
+    package_data={'':['version.txt']},
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
