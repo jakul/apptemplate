@@ -12,10 +12,11 @@
 # serve to show the default.
 
 import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), os.pardir))
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
+
 from apptemplate import VERSION, VERSION_INFO, AUTHOR, PROJECT_NAME, \
     SHORT_DESCRIPTION
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'sampleproj'))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'sampleproj.settings'
 
 # General information about the project.
 project = PROJECT_NAME

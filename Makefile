@@ -5,7 +5,9 @@
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         = 
-BUILDDIR      = doc/_build
+DOCDIR        = doc
+BUILDDIR      = $(DOCDIR)/_build
+APPNAME	      = apptemplate
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -25,7 +27,8 @@ help:
 	@echo "  sdist         to make and upload a sdist file"
 
 clean:
-	-rm -rf $(BUILDDIR)/*
+	-rm -rf $(DOCDIR)/_build
+	-rm -rf $(DOCDIR)/apidoc
 
 htmldoc: 
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
@@ -33,7 +36,7 @@ htmldoc:
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 apidoc:
-	sphinx-apidoc -o doc/apidoc/ apptemplate -f
+	sphinx-apidoc -o doc/apidoc/ $(APPNAME) -f
 	@echo
 	@echo "Apidoc built."
 	
