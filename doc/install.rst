@@ -70,6 +70,5 @@ The standard sytax for running PyUnit tests can be used::
     $ python runtests.py apptemplate.TestCase.test_method
     
 
-    
-    $ python runtests.py 
+
 
