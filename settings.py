@@ -17,3 +17,5 @@ INSTALLED_APPS = (
     #'django.contrib.sessions',
     'apptemplate',
 )
+
+SECRET_KEY = 'temporary-test-key'
