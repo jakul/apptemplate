@@ -5,19 +5,6 @@ from django.http import HttpResponse
 
 from apptemplate import VERSION
 
-def hello(request):
-    """
-    Doctring  for the hello module
-    
-    @param request a Django HttpRequest
-    
-    .. note ::
-    
-        hello
-    
-    """
-    return HttpResponse('hello2')
-
 
 def version(request):
     """
