@@ -14,7 +14,10 @@ you start writing your project:
     * Comment out the *url* and *download_url* parameters in the setup command.
 * Open settings.py and replace all instances of *apptemplate* with your application name.
 * Open doc/conf.py and replace *apptemplate* with the name of your application.
+* Open app_name/views.py and replace *apptemplate* with the name of your application.
 * Open app_name/tests/__init__.py and replace *apptemplate* with the name of your application.
+* Open app_name/tests/views.py and replace *apptemplate* with the name of your application.
+
 
 At this point you should be able to install the application (where app_dir is the directory
 containing setup.py)::

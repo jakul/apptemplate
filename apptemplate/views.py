@@ -3,6 +3,8 @@ Example docstring
 """
 from django.http import HttpResponse
 
+from apptemplate import VERSION
+
 def hello(request):
     """
     Doctring  for the hello module
@@ -17,6 +19,12 @@ def hello(request):
     return HttpResponse('hello2')
 
 
+def version(request):
+    """
+    Returns the application version number 
+    @param request a Django HttpRequest
+    """
+    return HttpResponse(VERSION)
 
 
 class MyPublicClass(object):

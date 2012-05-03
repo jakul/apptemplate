@@ -10,7 +10,7 @@ DATABASES = {'default': {
     },
 }
 
-ROOT_URLCONF = 'apptemplate.tests.urls'
+ROOT_URLCONF = 'apptemplate.urls'
 
 INSTALLED_APPS = (
     #'django.contrib.auth',
