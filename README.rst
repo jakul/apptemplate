@@ -1,4 +1,6 @@
-apptemplate
-===========
+.. include:: global.rst
 
-A template for SAAS apps
+|project| README
+==================
+
+*Apptemplate* is a skeleton setup for SAAS apps hosted on an internal PyPI clone.

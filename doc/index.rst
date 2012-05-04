@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to apptemplate's documentation!
-=======================================
+.. include :: global.rst
+
+|project| documentation
+=======================
 
 Contents:
 
@@ -13,6 +15,13 @@ Contents:
     :maxdepth: 2
 
     install
+    usage    
+    apptemplate_install_instructions
+    README
+    CHANGELOG
+    
+    apidoc/modules
+
 
 
 Indices and tables

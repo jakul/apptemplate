@@ -31,7 +31,11 @@ clean:
 	-rm -rf $(DOCDIR)/apidoc
 
 htmldoc: 
+	cp CHANGELOG.rst $(DOCDIR)
+	cp README.rst $(DOCDIR)
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	rm $(DOCDIR)/CHANGELOG.rst
+	rm $(DOCDIR)/README.rst
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 

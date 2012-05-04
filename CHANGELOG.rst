@@ -1,5 +1,13 @@
-ChangeLog
+CHANGELOG
 =========
+0.2.1 (04/05/2012)
+------------------
+* Update doc to include info on how to install in developement and deployment
+
+0.2.0 (04/05/2012)
+-------------------
+* Fix version number
+* Updaate documentation to split the instructions for re-using *apptemplate* as a skeleton for your app and those for installing *apptemplate*
 
 1.7.17 (28/04/2012)
 -------------------
