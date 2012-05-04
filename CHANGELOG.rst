@@ -1,5 +1,6 @@
 CHANGELOG
 =========
+
 0.2.1 (04/05/2012)
 ------------------
 * Update doc to include info on how to install in developement and deployment
