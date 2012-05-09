@@ -15,6 +15,7 @@ you start writing your project:
  * Update/remove  the *url* and *download_url* parameters in the setup command.
 
 * Open settings.py and replace all instances of *apptemplate* with your application name.
+* Open runtests.py and replace all instances of *apptemplate* with your application name.
 * Open doc/conf.py and replace *apptemplate* with the name of your application.
 * Open app_name/tests/__init__.py and replace *apptemplate* with the name of your application.
 * Remove doc/apptemplate_install_instructions.rst
