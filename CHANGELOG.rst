@@ -1,11 +1,15 @@
 CHANGELOG
 =========
 
+0.3.0 (20/05/2012)
+----------------------------------
+* add fabfile to automate release process
+
 0.2.1 (04/05/2012)
 ------------------
 * Update doc to include info on how to install in developement and deployment
 
-0.2.0 (04/05/2012)
+0.2.0 (04/05/2012) 
 -------------------
 * Fix version number
 * Updaate documentation to split the instructions for re-using *apptemplate* as a skeleton for your app and those for installing *apptemplate*

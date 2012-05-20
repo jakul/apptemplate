@@ -2,3 +2,4 @@
 django
 sphinx
 semver
+fabric
