@@ -8,7 +8,7 @@ def fread(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name=PROJECT_NAME,
+    name='onzo' + PROJECT_NAME,
     version=VERSION,
     description=SHORT_DESCRIPTION,
     long_description=fread("README.rst")+"\n\n"+fread('CHANGELOG.rst'),
